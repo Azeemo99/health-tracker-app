@@ -1,0 +1,58 @@
+[
+  {
+    "userId": "4610c7cd-55ac-47d7-bf58-3803250e0abb",
+    "goal": "lose",
+    "targetWeight": 50,
+    "timeFrame": 10,
+    "exerciseTime": 100,
+    "calGoal": 1200
+  },
+  {
+    "userId": "4610c7cd-55ac-47d7-bf58-3803250e0abb",
+    "goal": "lose",
+    "targetWeight": 50,
+    "timeFrame": 10,
+    "exerciseTime": 100,
+    "calGoal": 1200
+  },
+  {
+    "userId": "0a50e19a-7dfb-4fad-b737-6a1385b60617",
+    "goal": "lose",
+    "targetWeight": 60,
+    "timeFrame": 10,
+    "exerciseTime": 100,
+    "calGoal": 1200
+  },
+  {
+    "userId": "0a50e19a-7dfb-4fad-b737-6a1385b60617",
+    "goal": "lose",
+    "targetWeight": 88,
+    "timeFrame": 5,
+    "exerciseTime": 6,
+    "calGoal": 1200
+  },
+  {
+    "userId": "51cf26f7-4d70-4dd3-a543-882bdaf55d6e",
+    "goal": "lose",
+    "targetWeight": 70,
+    "timeFrame": 12,
+    "exerciseTime": 200,
+    "calGoal": 1200
+  },
+  {
+    "userId": "21065ada-a0f4-489f-957c-9dff9351ad77",
+    "goal": "lose",
+    "targetWeight": 70,
+    "timeFrame": 12,
+    "exerciseTime": 200,
+    "calGoal": 1384
+  },
+  {
+    "userId": "b381051a-ab38-4cd2-827c-325ef0486e1e",
+    "goal": "lose",
+    "targetWeight": 75,
+    "timeFrame": 8,
+    "exerciseTime": 200,
+    "calGoal": "1614"
+  }
+]

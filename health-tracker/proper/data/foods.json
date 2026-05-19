@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "Apple",
+    "calories": 52,
+    "protein": 1,
+    "carbs": 1.4,
+    "fats": 0.2
+  },
+  {
+    "id": 2,
+    "name": "Banana",
+    "calories": 85,
+    "protein": 1,
+    "carbs": 23,
+    "fats": 0.3
+  },
+  {
+    "id": 1747241736032,
+    "name": "chicken",
+    "calories": 100,
+    "protein": 100,
+    "carbs": 100,
+    "fats": 100
+  },
+  {
+    "id": 1747676918159,
+    "name": "Lemon",
+    "calories": 44,
+    "protein": 2,
+    "carbs": 22,
+    "fats": 2
+  }
+]

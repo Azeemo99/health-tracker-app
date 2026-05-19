@@ -1,0 +1,70 @@
+extends layout
+
+block content
+  .content
+    h1 Diet Tracker
+
+    .diet-container
+      .diet-input
+        h2 Add Food Entry
+        form(action="/diet/add", method="POST")
+          .form-group
+            label(for="foodId") Food:
+            select#foodId(name="foodId" required)
+              each food in foods
+                option(value=food.id) #{food.name} - #{food.calories} kcal per 100g
+          .form-group
+            label(for="amount") Amount (grams):
+            input#amount(type="number", name="amount", required, min="1")
+          button.button(type="submit") Add Entry
+
+        // Add New Food Section
+        .add-new-food
+          h2 Add New Food
+          form(action="/diet/add-food", method="POST")
+            .form-group
+              label(for="name") Name:
+              input#name(type="text", name="name", required)
+            .form-group
+              label(for="calories") Calories (per 100g):
+              input#calories(type="number", name="calories", step="0.01", required)
+            .form-group
+              label(for="protein") Protein (g per 100g):
+              input#protein(type="number", name="protein", step="0.01", required)
+            .form-group
+              label(for="carbs") Carbs (g per 100g):
+              input#carbs(type="number", name="carbs", step="0.01", required)
+            .form-group
+              label(for="fats") Fats (g per 100g):
+              input#fats(type="number", name="fats", step="0.01", required)
+            button.button(type="submit") Add Food
+
+      .diet-summary
+        h2 Diet Summary
+        if foodEntries.length > 0
+          ul.food-entries
+            each entry in foodEntries
+              li.food-entry
+                span.food-name #{entry.foodName}
+                span.food-calories #{entry.calories.toFixed(2)} kcal
+                .macros
+                  span Protein: #{entry.protein.toFixed(2)}g
+                  span Carbs: #{entry.carbs.toFixed(2)}g
+                  span Fats: #{entry.fats.toFixed(2)}g
+          .nutrition-totals
+            h3 Total Nutrition
+            .macro-totals
+              .macro-total
+                span.macro-label Calories:
+                span.macro-value #{totals.calories} kcal
+              .macro-total
+                span.macro-label Protein:
+                span.macro-value #{totals.protein}g
+              .macro-total
+                span.macro-label Carbs:
+                span.macro-value #{totals.carbs}g
+              .macro-total
+                span.macro-label Fats:
+                span.macro-value #{totals.fats}g
+        else
+          p No food entries for today.

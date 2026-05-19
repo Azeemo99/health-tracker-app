@@ -1,0 +1,24 @@
+[
+  {
+    "id": "aa6fd2d9-baa6-4526-b468-be8efcb61766",
+    "email": "test@test.com",
+    "username": "test",
+    "fname": "fname",
+    "lname": "fname",
+    "password": "password",
+    "height": 2000,
+    "weight": 100,
+    "createdAt": "2025-05-14T14:38:48.488Z"
+  },
+  {
+    "id": "d2e5cae0-07bb-46ba-abf4-263ac0f657c4",
+    "email": "test2@test.com",
+    "username": "test2",
+    "fname": "test",
+    "lname": "test",
+    "password": "password",
+    "height": 100,
+    "weight": 100,
+    "createdAt": "2025-05-14T15:40:12.792Z"
+  }
+]

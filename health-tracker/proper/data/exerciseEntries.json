@@ -1,0 +1,23 @@
+[
+  {
+    "userId": "81b3b7d7-9463-4948-aadf-6fa574eda100",
+    "type": "Running",
+    "duration": 100,
+    "caloriesBurned": 1000,
+    "date": "2025-05-14T17:58:20.805Z"
+  },
+  {
+    "userId": "0a50e19a-7dfb-4fad-b737-6a1385b60617",
+    "type": "Running",
+    "duration": 100,
+    "caloriesBurned": 1000,
+    "date": "2025-05-16T12:38:11.049Z"
+  },
+  {
+    "userId": "0a50e19a-7dfb-4fad-b737-6a1385b60617",
+    "type": "Running",
+    "duration": 20,
+    "caloriesBurned": 200,
+    "date": "2025-05-19T17:49:08.987Z"
+  }
+]

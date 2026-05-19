@@ -1,0 +1,53 @@
+extends layout
+
+block content
+  .exercise-container
+    .exercise-input
+      // Add Exercise Entry Form
+      form(action="/exercise/add", method="POST")
+        h2 Add Exercise Entry
+        .form-group
+          label(for="exerciseType") Exercise Type:
+          select#exerciseType(name="exerciseType" required)
+            each exercise in exerciseTypes
+              option(value=exercise.type) #{exercise.type}
+        .form-group
+          label(for="duration") Duration (minutes):
+          input(type="number", id="duration", name="duration", required, min="1")
+        button.button(type="submit") Add Entry
+
+      // Add New Exercise Type Form
+      .add-new-food
+        h2 Add New Exercise Type
+        form(action="/exercise/add-type", method="POST")
+          .form-group
+            label(for="type") Name:
+            input#type(type="text", name="type", required)
+          .form-group
+            label(for="caloriesPerMinute") Calories Burned Per Minute:
+            input#caloriesPerMinute(type="number", name="caloriesPerMinute", step="0.01", required)
+          button.button(type="submit") Add Exercise Type
+
+    // Summary Section
+    .exercise-summary
+      h2 Exercise Summary
+      if exercises && exercises.length > 0
+        ul.food-entries
+          each exercise in exercises
+            li.food-entry
+              span.food-name= exercise.type
+              span.food-calories= exercise.caloriesBurned + ' cal'
+              .macros
+                span Duration: #{exercise.duration} min
+      else
+        p No exercises logged yet. Add your first entry!
+
+      .nutrition-totals
+        h3 Total Burn
+        .macro-totals
+          .macro-total
+            span.macro-label Duration:
+            span.macro-value #{totalDuration} min
+          .macro-total
+            span.macro-label Calories:
+            span.macro-value #{totalCaloriesBurned} cal

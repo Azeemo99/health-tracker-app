@@ -1,0 +1,23 @@
+extends layout
+
+block content
+  .dashboard-container
+    h1 Hello #{user.username}, here's your daily summary
+
+    .summary-box
+      h2 Calorie Summary
+
+      .progress-bar
+        .progress-fill(style=`width: ${Math.min(100, (caloriesIn / goalCalories) * 100)}%`)
+      
+      p Calories Consumed: #{caloriesIn} / #{goalCalories}
+      p Calories Burned: #{caloriesOut}
+
+    hr
+
+    .summary-box
+      h2 Macronutrients (Today)
+      ul.macro-list
+        li Protein: #{protein || 0} g
+        li Carbs: #{carbs || 0} g
+        li Fats: #{fats || 0} g

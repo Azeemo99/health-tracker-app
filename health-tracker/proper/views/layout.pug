@@ -1,0 +1,47 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Health Tracker App
+    link(rel="stylesheet", href="/css/style.css")
+  
+
+  body
+    header.app-header
+      .logo
+        h1 Health Tracker App
+      nav.main-nav
+        ul.nav-list
+          li.nav-item
+            if user
+              a(href="/Dashboard") Home
+            else
+              a(href="/index") Home
+          li.nav-item
+            a(href="/exercise") Exercises
+          li.nav-item
+            a(href="/diet") Diets
+          li.nav-item
+            a(href="/history") History
+          li.nav-item
+            a(href="/goals") Goals
+
+
+      .auth-buttons
+        if user
+          span.welcome-message Welcome, #{user.name}!
+          a.button.logout(href="/index") Logout
+        else
+          a.button.login(href="/login") Login
+          a.button.register(href="/register") Register
+
+    main.content
+      block content
+
+    footer.app-footer
+      p &copy; #{new Date().getFullYear()} HealthTrack Wellness App
+      
+
+ 
+    script(src="/main.js")

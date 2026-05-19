@@ -1,0 +1,33 @@
+extends layout
+
+block content
+  h1 History Summary
+
+  form(action="/history", method="get" class="history-form")
+    label(for="date") Select a Date:
+    input(type="date", name="date", id="date", value=summary.date)
+    button(type="submit") View
+
+  if summary
+    h2 Summary for #{summary.date}
+
+    .progress-container
+      p Calorie Goal: #{summary.calGoal}
+      p Calories Consumed: #{summary.caloriesIn.toFixed(2)}
+      p Calories Burned: #{summary.caloriesOut.toFixed(2)}
+
+      - const netCalories = summary.caloriesIn - summary.caloriesOut
+      - const fillPercent = Math.min((netCalories / summary.calGoal) * 100, 100)
+
+      .progress-bar
+        .progress-fill(style=`width: ${fillPercent}%`)
+          | #{fillPercent.toFixed(0)}%
+
+    .macros
+      h3 Macros
+      ul
+        li Protein: #{summary.protein.toFixed(2)} g
+        li Carbs: #{summary.carbs.toFixed(2)} g
+        li Fats: #{summary.fats.toFixed(2)} g
+  else
+    p No data found for this date.

@@ -1,0 +1,238 @@
+[
+  {
+    "foodName": "Banana",
+    "calories": 10500,
+    "protein": 130,
+    "carbs": 2700,
+    "fats": 30,
+    "date": "2025-05-14T16:22:23.406Z"
+  },
+  {
+    "foodName": "Apple",
+    "calories": 52,
+    "protein": 1,
+    "carbs": 14.000000000000002,
+    "fats": 0.2,
+    "date": "2025-05-14T16:23:25.909Z"
+  },
+  {
+    "userId": "78ea9325-c03e-4f2a-8dfc-5970d0ff39e4",
+    "foodName": "Apple",
+    "amount": 100,
+    "calories": 0.52,
+    "protein": 0.01,
+    "carbs": 0.14,
+    "fats": 0.002,
+    "date": "2025-05-14"
+  },
+  {
+    "userId": "78ea9325-c03e-4f2a-8dfc-5970d0ff39e4",
+    "foodName": "Apple",
+    "amount": 100,
+    "calories": 0.52,
+    "protein": 0.01,
+    "carbs": 0.14,
+    "fats": 0.002,
+    "date": "2025-05-14"
+  },
+  {
+    "userId": "78ea9325-c03e-4f2a-8dfc-5970d0ff39e4",
+    "foodName": "Banana",
+    "amount": 100,
+    "calories": 0.89,
+    "protein": 0.01,
+    "carbs": 0.23,
+    "fats": 0.003,
+    "date": "2025-05-14"
+  },
+  {
+    "userId": "78ea9325-c03e-4f2a-8dfc-5970d0ff39e4",
+    "foodName": "Apple",
+    "amount": 100,
+    "calories": 0.52,
+    "protein": 0.01,
+    "carbs": 0.14,
+    "fats": 0.002,
+    "date": "2025-05-14"
+  },
+  {
+    "userId": "78ea9325-c03e-4f2a-8dfc-5970d0ff39e4",
+    "foodName": "Banana",
+    "amount": 1000,
+    "calories": 8.9,
+    "protein": 0.1,
+    "carbs": 2.3,
+    "fats": 0.03,
+    "date": "2025-05-14"
+  },
+  {
+    "userId": "78ea9325-c03e-4f2a-8dfc-5970d0ff39e4",
+    "foodName": "Apple",
+    "amount": 100,
+    "calories": 52,
+    "protein": 1,
+    "carbs": 1.4,
+    "fats": 0.2,
+    "date": "2025-05-14"
+  },
+  {
+    "userId": "78ea9325-c03e-4f2a-8dfc-5970d0ff39e4",
+    "foodName": "Banana",
+    "amount": 100,
+    "calories": 85,
+    "protein": 1,
+    "carbs": 23,
+    "fats": 0.3,
+    "date": "2025-05-14"
+  },
+  {
+    "userId": "78ea9325-c03e-4f2a-8dfc-5970d0ff39e4",
+    "foodName": "Apple",
+    "amount": 150,
+    "calories": 78,
+    "protein": 1.5,
+    "carbs": 2.1,
+    "fats": 0.3,
+    "date": "2025-05-14"
+  },
+  {
+    "userId": "78ea9325-c03e-4f2a-8dfc-5970d0ff39e4",
+    "foodName": "chicken",
+    "amount": 100,
+    "calories": 10000,
+    "protein": 10000,
+    "carbs": 10000,
+    "fats": 10000,
+    "date": "2025-05-14"
+  },
+  {
+    "userId": "78ea9325-c03e-4f2a-8dfc-5970d0ff39e4",
+    "foodName": "Banana",
+    "amount": 100,
+    "calories": 8500,
+    "protein": 100,
+    "carbs": 2300,
+    "fats": 30,
+    "date": "2025-05-14"
+  },
+  {
+    "userId": "78ea9325-c03e-4f2a-8dfc-5970d0ff39e4",
+    "foodName": "Apple",
+    "amount": 1000,
+    "calories": 52000,
+    "protein": 1000,
+    "carbs": 1400,
+    "fats": 200,
+    "date": "2025-05-14"
+  },
+  {
+    "userId": "78ea9325-c03e-4f2a-8dfc-5970d0ff39e4",
+    "foodName": "Apple",
+    "amount": 10000,
+    "calories": 5200,
+    "protein": 100,
+    "carbs": 140,
+    "fats": 20,
+    "date": "2025-05-14"
+  },
+  {
+    "userId": "78ea9325-c03e-4f2a-8dfc-5970d0ff39e4",
+    "foodName": "Apple",
+    "amount": 10000,
+    "calories": 520,
+    "protein": 10,
+    "carbs": 14,
+    "fats": 2,
+    "date": "2025-05-14"
+  },
+  {
+    "userId": "78ea9325-c03e-4f2a-8dfc-5970d0ff39e4",
+    "foodName": "Apple",
+    "amount": 1,
+    "calories": 0.05,
+    "protein": 0,
+    "carbs": 0,
+    "fats": 0,
+    "date": "2025-05-14"
+  },
+  {
+    "userId": "78ea9325-c03e-4f2a-8dfc-5970d0ff39e4",
+    "foodName": "Apple",
+    "amount": 100,
+    "calories": 5.2,
+    "protein": 0.1,
+    "carbs": 0.14,
+    "fats": 0.02,
+    "date": "2025-05-14"
+  },
+  {
+    "userId": "78ea9325-c03e-4f2a-8dfc-5970d0ff39e4",
+    "foodName": "Apple",
+    "amount": 100,
+    "calories": 52,
+    "protein": 1,
+    "carbs": 1.4,
+    "fats": 0.2,
+    "date": "2025-05-14"
+  },
+  {
+    "userId": "81b3b7d7-9463-4948-aadf-6fa574eda100",
+    "foodName": "Apple",
+    "amount": 100,
+    "calories": 52,
+    "protein": 1,
+    "carbs": 1.4,
+    "fats": 0.2,
+    "date": "2025-05-14"
+  },
+  {
+    "userId": "4610c7cd-55ac-47d7-bf58-3803250e0abb",
+    "foodName": "Apple",
+    "amount": 100,
+    "calories": 52,
+    "protein": 1,
+    "carbs": 1.4,
+    "fats": 0.2,
+    "date": "2025-05-15"
+  },
+  {
+    "userId": "81b3b7d7-9463-4948-aadf-6fa574eda100",
+    "foodName": "Apple",
+    "amount": 100,
+    "calories": 52,
+    "protein": 1,
+    "carbs": 1.4,
+    "fats": 0.2,
+    "date": "2025-05-15"
+  },
+  {
+    "userId": "0a50e19a-7dfb-4fad-b737-6a1385b60617",
+    "foodName": "Apple",
+    "amount": 100,
+    "calories": 52,
+    "protein": 1,
+    "carbs": 1.4,
+    "fats": 0.2,
+    "date": "2025-05-19"
+  },
+  {
+    "userId": "0a50e19a-7dfb-4fad-b737-6a1385b60617",
+    "foodName": "chicken",
+    "amount": 77,
+    "calories": 77,
+    "protein": 77,
+    "carbs": 77,
+    "fats": 77,
+    "date": "2025-05-19"
+  },
+  {
+    "userId": "0a50e19a-7dfb-4fad-b737-6a1385b60617",
+    "foodName": "chicken",
+    "amount": 300,
+    "calories": 77,
+    "protein": 77,
+    "carbs": 77,
+    "fats": 77,
+    "date": "2025-05-19"
+  }
+]

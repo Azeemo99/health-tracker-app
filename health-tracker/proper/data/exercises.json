@@ -1,0 +1,18 @@
+[
+  {
+    "type": "Running",
+    "caloriesPerMinute": 10
+  },
+  {
+    "type": "Cycling",
+    "caloriesPerMinute": 8
+  },
+  {
+    "type": "Swimming",
+    "caloriesPerMinute": 7
+  },
+  {
+    "type": "Strength Training",
+    "caloriesPerMinute": 6
+  }
+]

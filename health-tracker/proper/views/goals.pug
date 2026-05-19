@@ -1,0 +1,34 @@
+extends layout
+
+block content
+  .goal-container
+    h1 Set Your Goal
+
+    // Display current goal if set
+    if goals
+      h2 Current Goal:
+      p Goal: #{goals.goal === 'lose' ? 'Lose Weight' : 'Gain Weight'}
+      p Target Weight: #{goals.targetWeight} kg
+      p Time Frame: #{goals.timeFrame} weeks
+      p Exercise Time per Week: #{goals.exerciseTime} hours
+
+    form(action='/goals/set', method='POST')
+      .form-group
+        label(for='goal') Goal (Lose/Gain Weight):
+        select#goal(name='goal' required)
+          option(value='lose') Lose
+          option(value='gain') Gain
+          
+      .form-group
+        label(for='targetWeight') Target Weight (kg):
+        input(type='number', id='targetWeight', name='targetWeight', required)
+        
+      .form-group
+        label(for='timeFrame') Time Frame (weeks):
+        input(type='number', id='timeFrame', name='timeFrame', required)
+        
+      .form-group
+        label(for='exerciseTime') Exercise Time per Week (minutes):
+        input(type='number', id='exerciseTime', name='exerciseTime', required)
+      
+      button.button(type='submit') Save Goal
